@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flex1{
+            display: flex;
+            border: red 5px double;
+            justify-content: space-between;
+            align-items: center;
+            height: 800px;
+            align-self: flex-start;
+        }
+        #flex2{
+            display: flex;
+            border: red 5px double;
+            justify-content: space-between;
+            align-items: center;
+            height: 800px;
+            align-self: flex-start;
+            flex-wrap: wrap;
+        }
+        .c1{
+            border: 3px dashed brown;
+            width: 300px;
+        }
+        #flex1:nth-child(1){
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <article id="flex1">
+        <div class="c1">
+            <span>1</span><br>
+            The brightest and largest object in our 
+            night sky, the Moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, 
+            creating a rhythm that has guided humans for thousands of years.
+
+        </div>
+        <section class="c1">
+            <span>2</span><br>
+            The brightest and largest object in our 
+            night sky, the Moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, 
+            creating a rhythm that has guided humans for thousands of years.
+
+        </section>
+        <div class="c1">
+            <span>3</span><br>
+            The brightest and largest object in our 
+            night sky, the Moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, 
+            creating a rhythm that has guided humans for thousands of years.
+
+        </div>
+    </article>
+
+    <article id="flex2">
+        <div class="c1">
+            <span>1</span><br>
+            The brightest and largest object in our 
+
+        </div>
+        <section class="c1">
+            <span>2</span><br>
+            The brightest and largest object in our 
+
+        </section>
+        <div class="c1">
+            <span>3</span><br>
+            The brightest and largest object in our 
+            night sky, the Moon makes Earth a more.
+
+        </div>
+        <div class="c1">
+            <span>1</span><br>
+            The brightest and largest object in our 
+
+        </div>
+        <section class="c1">
+            <span>2</span><br>
+            The brightest and largest object in our 
+
+        </section>
+        <div class="c1">
+            <span>3</span><br>
+            The brightest and largest object in our 
+            night sky, the Moon makes Earth a more.
+
+        </div>
+    </article>
+</body>
+</html>

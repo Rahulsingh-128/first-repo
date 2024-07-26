@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        .ox{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.html">
+        
+            <label for="firstName">FirstName</label>
+            <input id="firstName" required>
+        <br>
+        <label for="LastName">LastName</label>
+        <input id="LastName" placeholder="Enter LastName" type="text">
+        <br>
+        <label for="Age">Age</label>
+            <input id="Age" type="number" min="16" max="28">
+            <br>
+            <label for="Password">Password</label>
+            <input id="Password" type="password" minlength="3" maxlength="7">
+            <br>
+            <label for="email">email</label>
+            <input id="email" type="email">
+        <div>
+            <label for="course">Courses</label>
+            <input id="course1" type="checkbox" name="course"  value="Git" class="ox"> <label for="course1">Git</label>
+            <input id="course2" type="checkbox" name="course"  value="Web" class="ox"> <label for="course2">Web basic</label>
+            <input id="course3" type="checkbox" name="course"  value="mysql"> <label for="course3">mysql</label>
+
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input id="male" type="radio" name="gender" value="male"><lable for="male">Male</lable>
+            <input id="female" type="radio" name="gender" value="female"><label for="female">female</label>
+        </div>
+        <div>
+            <select>
+                <option value="Mechanical">Mechanical</option>
+                <option value="computer Science">computer Science</option>
+                <option value="Civil">Civil</option>
+                <option value="Information technology">Information technology</option>
+            </select>
+        </div>
+        <div>
+            <lable for="comment">Comments</lable>
+            <input type="textArea" id="comment" >
+        </div>
+        <div>
+            <input type="date">
+            <input type="color">
+            <input type="search">
+            <input type="week">
+        </div>
+      
+            <div>
+                <input type="submit">
+            </div>
+
+    </form>
+
+    <script>
+        console.log(document.getElementById("first"))
+    </script>
+</body>
+</html>
